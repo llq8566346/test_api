@@ -1,0 +1,2440 @@
+2024-03-22 12:52:41,799 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:52:41,864 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:52:41,927 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:52:42,040 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:52:42,119 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:52:42,172 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:52:42,237 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:52:42,285 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:52:42,344 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:52:42,452 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:53:12,210 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:53:12,263 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:53:12,316 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:53:12,373 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:53:12,426 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:53:12,479 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:53:12,531 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:53:12,585 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:53:12,639 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:53:12,693 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:53:12,748 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:53:12,975 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:53:13,098 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:53:13,196 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:53:13,272 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:53:13,347 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:53:13,422 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:53:13,540 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:53:13,609 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:53:13,669 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:53:13,795 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:53:13,875 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:53:13,924 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:53:13,975 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:53:14,025 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:53:14,088 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:53:14,195 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:53:14,363 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:53:14,483 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:53:14,525 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:53:14,568 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:53:14,611 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:53:14,653 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:53:14,809 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:53:14,850 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:53:14,893 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:53:14,935 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:53:14,976 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:53:15,016 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:53:15,126 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:54:04,248 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:54:04,299 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:54:04,348 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:54:04,396 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:54:04,442 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:54:04,488 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:54:04,533 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:54:04,579 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:54:04,627 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:54:04,675 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:54:04,722 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:54:04,944 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:54:05,068 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:54:05,158 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:54:05,228 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:54:05,300 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:54:05,373 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:54:05,472 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:54:05,533 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:54:05,588 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:54:05,705 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:54:05,784 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:54:05,831 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:54:05,875 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:54:05,917 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:54:05,971 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:54:06,070 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:54:06,240 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:54:06,375 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:54:06,420 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:54:06,464 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:54:06,507 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:54:06,548 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:54:06,658 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:54:06,702 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:54:06,743 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:54:06,792 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:54:06,832 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:54:06,873 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:54:06,984 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:54:55,406 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:54:55,456 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:54:55,505 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:54:55,551 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:54:55,598 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:54:55,643 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:54:55,688 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:54:55,734 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:54:55,781 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:54:55,834 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:54:55,892 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:54:56,137 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:54:56,268 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:54:56,372 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:54:56,459 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:54:56,543 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:54:56,629 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:54:56,725 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:54:56,781 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:54:56,832 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:54:56,941 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:54:57,026 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:54:57,072 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:54:57,072 - [test_invest.py-->line:65] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 60, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 12:54:57,116 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:54:57,157 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:54:57,215 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:54:57,319 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:54:57,517 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:54:57,656 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:54:57,705 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:54:57,750 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:54:57,795 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:54:57,841 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:54:57,950 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:54:57,996 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:54:58,040 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:54:58,084 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:54:58,130 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:54:58,173 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:54:58,373 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:56:37,418 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:56:37,468 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:56:37,519 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:56:37,570 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:56:37,621 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:56:37,673 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:56:37,722 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:56:37,773 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:56:37,826 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:56:37,879 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:56:37,930 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:56:38,140 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:56:38,244 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:56:38,432 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:56:38,502 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:56:38,571 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:56:38,640 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:56:38,739 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:56:38,791 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:56:38,841 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:56:38,946 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:56:39,020 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:56:39,082 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:56:39,082 - [test_invest.py-->line:65] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 60, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 12:56:39,131 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:56:39,178 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:56:39,234 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:56:39,336 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:56:39,502 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:56:39,625 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:56:39,673 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:56:39,717 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:56:39,758 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:56:39,798 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:56:39,900 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:56:39,941 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:56:39,982 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:56:40,023 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:56:40,063 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:56:40,101 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:56:40,216 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:58:14,038 - [test_recharge.py-->line:69] - INFO: 充值成功-整数,该用例已通过
+2024-03-22 12:58:14,350 - [test_recharge.py-->line:69] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-22 12:58:14,652 - [test_recharge.py-->line:69] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-22 12:58:14,946 - [test_recharge.py-->line:69] - INFO: 充值成功-50万,该用例已通过
+2024-03-22 12:58:14,998 - [test_recharge.py-->line:69] - INFO: 会员id为空,该用例已通过
+2024-03-22 12:58:15,045 - [test_recharge.py-->line:69] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-22 12:58:15,089 - [test_recharge.py-->line:69] - INFO: 会员id为字符串,该用例已通过
+2024-03-22 12:58:15,134 - [test_recharge.py-->line:69] - INFO: 会员id为小数,该用例已通过
+2024-03-22 12:58:15,188 - [test_recharge.py-->line:63] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-22 12:58:15,188 - [test_recharge.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-22 12:58:15,252 - [test_recharge.py-->line:69] - INFO: 充值金额为负数,该用例已通过
+2024-03-22 12:58:15,295 - [test_recharge.py-->line:69] - INFO: 充值金额为空,该用例已通过
+2024-03-22 12:58:15,338 - [test_recharge.py-->line:69] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-22 12:58:15,382 - [test_recharge.py-->line:69] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-22 12:58:15,426 - [test_recharge.py-->line:69] - INFO: 充值金额-非数字,该用例已通过
+2024-03-22 12:59:10,840 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-22 12:59:11,067 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-22 12:59:11,285 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-22 12:59:11,520 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-22 12:59:11,806 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-22 12:59:11,854 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-22 12:59:11,898 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-22 12:59:11,953 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-22 12:59:11,994 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-22 12:59:12,046 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-22 12:59:12,046 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-22 12:59:12,106 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-22 12:59:12,149 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-22 12:59:12,191 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-22 12:59:12,233 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-22 12:59:12,288 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-22 12:59:25,429 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:59:25,547 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:59:25,585 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:59:25,625 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:59:25,662 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:59:25,705 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:59:25,819 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:59:25,859 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:59:25,897 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:59:25,938 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:59:25,978 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:59:26,018 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:59:26,181 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:59:34,869 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:59:34,999 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:59:35,076 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:59:35,153 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:59:35,225 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:59:35,299 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:59:40,012 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:59:40,063 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:59:40,111 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:59:40,157 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:59:40,226 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:59:40,272 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:59:40,312 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:59:40,353 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:59:40,395 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:59:40,437 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:59:40,478 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:59:47,087 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-22 12:59:47,134 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-22 12:59:47,179 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-22 12:59:47,224 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-22 12:59:47,270 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-22 12:59:47,316 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-22 12:59:47,358 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-22 12:59:47,401 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-22 12:59:47,449 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-22 12:59:47,498 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-22 12:59:47,544 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-22 12:59:47,814 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-22 12:59:47,953 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-22 12:59:48,051 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-22 12:59:48,131 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-22 12:59:48,209 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-22 12:59:48,287 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-22 12:59:48,396 - [test_invest.py-->line:69] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 12:59:48,463 - [test_invest.py-->line:69] - INFO: 管理员加标,用例执行通过
+2024-03-22 12:59:48,527 - [test_invest.py-->line:69] - INFO: 管理员审核,用例执行通过
+2024-03-22 12:59:48,643 - [test_invest.py-->line:69] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 12:59:48,734 - [test_invest.py-->line:69] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 12:59:48,788 - [test_invest.py-->line:64] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 12:59:48,788 - [test_invest.py-->line:65] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 60, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 12:59:48,840 - [test_invest.py-->line:69] - INFO: 标id为空,用例执行通过
+2024-03-22 12:59:48,889 - [test_invest.py-->line:69] - INFO: 投资金额为空,用例执行通过
+2024-03-22 12:59:48,951 - [test_invest.py-->line:69] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 12:59:49,076 - [test_invest.py-->line:69] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 12:59:49,691 - [test_recharge.py-->line:69] - INFO: 充值成功-整数,该用例已通过
+2024-03-22 12:59:49,990 - [test_recharge.py-->line:69] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-22 12:59:50,601 - [test_recharge.py-->line:69] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-22 12:59:50,923 - [test_recharge.py-->line:69] - INFO: 充值成功-50万,该用例已通过
+2024-03-22 12:59:50,981 - [test_recharge.py-->line:69] - INFO: 会员id为空,该用例已通过
+2024-03-22 12:59:51,036 - [test_recharge.py-->line:69] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-22 12:59:51,089 - [test_recharge.py-->line:69] - INFO: 会员id为字符串,该用例已通过
+2024-03-22 12:59:51,142 - [test_recharge.py-->line:69] - INFO: 会员id为小数,该用例已通过
+2024-03-22 12:59:51,206 - [test_recharge.py-->line:63] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-22 12:59:51,207 - [test_recharge.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-22 12:59:51,259 - [test_recharge.py-->line:69] - INFO: 充值金额为负数,该用例已通过
+2024-03-22 12:59:51,311 - [test_recharge.py-->line:69] - INFO: 充值金额为空,该用例已通过
+2024-03-22 12:59:51,362 - [test_recharge.py-->line:69] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-22 12:59:51,414 - [test_recharge.py-->line:69] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-22 12:59:51,478 - [test_recharge.py-->line:69] - INFO: 充值金额-非数字,该用例已通过
+2024-03-22 12:59:51,616 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-22 12:59:51,742 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-22 12:59:51,788 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-22 12:59:51,833 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-22 12:59:51,875 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-22 12:59:51,918 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-22 12:59:52,035 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-22 12:59:52,080 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-22 12:59:52,123 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-22 12:59:52,165 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-22 12:59:52,207 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-22 12:59:52,249 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-22 12:59:52,434 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-22 12:59:52,582 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-22 12:59:52,894 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-22 12:59:53,150 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-22 12:59:53,459 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-22 12:59:53,744 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-22 12:59:53,791 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-22 12:59:53,836 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-22 12:59:53,892 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-22 12:59:53,934 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-22 12:59:53,986 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-22 12:59:53,986 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-22 12:59:54,034 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-22 12:59:54,075 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-22 12:59:54,131 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-22 12:59:54,175 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-22 12:59:54,215 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-22 20:33:38,220 - [test_invest.py-->line:73] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 20:33:38,313 - [test_invest.py-->line:73] - INFO: 管理员加标,用例执行通过
+2024-03-22 20:33:38,375 - [test_invest.py-->line:73] - INFO: 管理员审核,用例执行通过
+2024-03-22 20:33:38,495 - [test_invest.py-->line:73] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 20:33:38,583 - [test_invest.py-->line:73] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 20:33:38,633 - [test_invest.py-->line:66] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 20:33:38,633 - [test_invest.py-->line:67] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 61, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 20:33:38,697 - [test_invest.py-->line:73] - INFO: 标id为空,用例执行通过
+2024-03-22 20:33:38,740 - [test_invest.py-->line:73] - INFO: 投资金额为空,用例执行通过
+2024-03-22 20:33:38,795 - [test_invest.py-->line:73] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 20:33:38,905 - [test_invest.py-->line:73] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 20:55:20,158 - [test_invest.py-->line:73] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 20:55:20,230 - [test_invest.py-->line:73] - INFO: 管理员加标,用例执行通过
+2024-03-22 20:55:20,296 - [test_invest.py-->line:73] - INFO: 管理员审核,用例执行通过
+2024-03-22 20:55:20,460 - [test_invest.py-->line:73] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 20:55:20,550 - [test_invest.py-->line:73] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 20:55:20,599 - [test_invest.py-->line:66] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 20:55:20,599 - [test_invest.py-->line:67] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 61, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 20:55:20,664 - [test_invest.py-->line:73] - INFO: 标id为空,用例执行通过
+2024-03-22 20:55:20,715 - [test_invest.py-->line:73] - INFO: 投资金额为空,用例执行通过
+2024-03-22 20:55:20,772 - [test_invest.py-->line:73] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 20:55:20,875 - [test_invest.py-->line:73] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 20:56:08,685 - [test_invest.py-->line:73] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 20:56:08,751 - [test_invest.py-->line:73] - INFO: 管理员加标,用例执行通过
+2024-03-22 20:56:08,815 - [test_invest.py-->line:73] - INFO: 管理员审核,用例执行通过
+2024-03-22 20:56:08,954 - [test_invest.py-->line:73] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 20:56:09,042 - [test_invest.py-->line:73] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 20:56:09,091 - [test_invest.py-->line:66] - ERROR: 投资人id为空，用例执行不通过
+2024-03-22 20:56:09,091 - [test_invest.py-->line:67] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 61, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2024-03-22 20:56:09,156 - [test_invest.py-->line:73] - INFO: 标id为空,用例执行通过
+2024-03-22 20:56:09,201 - [test_invest.py-->line:73] - INFO: 投资金额为空,用例执行通过
+2024-03-22 20:56:09,258 - [test_invest.py-->line:73] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 20:56:09,376 - [test_invest.py-->line:73] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 20:56:43,097 - [test_invest.py-->line:73] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 20:56:43,158 - [test_invest.py-->line:73] - INFO: 管理员加标,用例执行通过
+2024-03-22 20:56:43,220 - [test_invest.py-->line:73] - INFO: 管理员审核,用例执行通过
+2024-03-22 20:56:43,326 - [test_invest.py-->line:73] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 20:56:43,404 - [test_invest.py-->line:73] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 20:56:43,492 - [test_invest.py-->line:73] - INFO: 投资人id为空,用例执行通过
+2024-03-22 20:56:43,540 - [test_invest.py-->line:73] - INFO: 标id为空,用例执行通过
+2024-03-22 20:56:43,591 - [test_invest.py-->line:73] - INFO: 投资金额为空,用例执行通过
+2024-03-22 20:56:43,646 - [test_invest.py-->line:73] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 20:56:43,744 - [test_invest.py-->line:73] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 21:55:33,697 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 21:55:33,802 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-22 21:55:33,906 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-22 21:55:34,077 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 21:55:34,211 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-22 21:55:34,211 - [test_invest.py-->line:94] - ERROR: Single '}' encountered in format string
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 85, in test_invest
+    format(CaseData.loan_id,CaseData.member_id))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Single '}' encountered in format string
+2024-03-22 21:55:34,348 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-22 21:55:34,476 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-22 21:55:34,587 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-22 21:55:34,700 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 21:55:34,959 - [test_invest.py-->line:93] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-22 21:55:34,959 - [test_invest.py-->line:94] - ERROR: Single '}' encountered in format string
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 85, in test_invest
+    format(CaseData.loan_id,CaseData.member_id))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Single '}' encountered in format string
+2024-03-22 21:56:15,860 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 21:56:16,039 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-22 21:56:16,153 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-22 21:56:16,392 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 21:56:16,696 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-22 21:56:16,697 - [test_invest.py-->line:94] - ERROR: (1054, "Unknown column 'loand_id' in 'where clause'")
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 84, in test_invest
+    sql1 =  self.db.find__one("SELECT * FROM future.invest WHERE loand_id = {} and member_id = {}".
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bytedance/Downloads/student/test_api/common/connectdb.py", line 25, in find__one
+    self.cur.execute(sql)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'loand_id' in 'where clause'")
+2024-03-22 21:56:16,895 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-22 21:56:17,012 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-22 21:56:17,181 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-22 21:56:17,322 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 21:56:17,696 - [test_invest.py-->line:93] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-22 21:56:17,697 - [test_invest.py-->line:94] - ERROR: (1054, "Unknown column 'loand_id' in 'where clause'")
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 84, in test_invest
+    sql1 =  self.db.find__one("SELECT * FROM future.invest WHERE loand_id = {} and member_id = {}".
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bytedance/Downloads/student/test_api/common/connectdb.py", line 25, in find__one
+    self.cur.execute(sql)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'loand_id' in 'where clause'")
+2024-03-22 21:57:48,739 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 21:57:48,915 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-22 21:57:49,058 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-22 21:57:49,306 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 21:57:49,793 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-22 21:57:49,795 - [test_invest.py-->line:94] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 88, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 21:57:49,995 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-22 21:57:50,163 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-22 21:57:50,276 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-22 21:57:50,413 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 21:57:52,373 - [test_invest.py-->line:93] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-22 21:57:52,373 - [test_invest.py-->line:94] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 88, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 21:59:27,559 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 21:59:27,654 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-22 21:59:27,768 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-22 21:59:27,941 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 21:59:28,322 - [test_invest.py-->line:94] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-22 21:59:28,322 - [test_invest.py-->line:95] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 21:59:28,488 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-22 21:59:28,580 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-22 21:59:28,667 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-22 21:59:28,781 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 21:59:29,201 - [test_invest.py-->line:94] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-22 21:59:29,201 - [test_invest.py-->line:95] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 22:00:43,178 - [test_invest.py-->line:102] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 22:00:43,321 - [test_invest.py-->line:102] - INFO: 管理员加标,用例执行通过
+2024-03-22 22:00:43,438 - [test_invest.py-->line:102] - INFO: 管理员审核,用例执行通过
+2024-03-22 22:00:43,594 - [test_invest.py-->line:102] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 22:00:43,950 - [test_invest.py-->line:95] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-22 22:00:43,951 - [test_invest.py-->line:96] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 90, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 22:00:44,111 - [test_invest.py-->line:102] - INFO: 投资人id为空,用例执行通过
+2024-03-22 22:00:44,212 - [test_invest.py-->line:102] - INFO: 标id为空,用例执行通过
+2024-03-22 22:00:44,314 - [test_invest.py-->line:102] - INFO: 投资金额为空,用例执行通过
+2024-03-22 22:00:44,450 - [test_invest.py-->line:102] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 22:00:44,980 - [test_invest.py-->line:95] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-22 22:00:44,981 - [test_invest.py-->line:96] - ERROR: cannot access local variable 'start_amount' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 90, in test_invest
+    count_amount = start_amount - end_amount
+                   ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_amount' where it is not associated with a value
+2024-03-22 22:02:30,047 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 22:02:30,319 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-22 22:02:30,810 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-22 22:02:31,198 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-22 22:02:40,472 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-22 22:02:41,072 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-22 22:02:49,090 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-22 22:02:49,226 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-22 22:02:49,376 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-22 22:02:52,359 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-22 22:03:58,289 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-22 22:03:58,476 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 13:41:30,537 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 13:41:30,604 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 13:41:30,747 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 13:41:30,871 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 13:41:31,236 - [test_invest.py-->line:100] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 13:41:31,298 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 13:41:31,358 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 13:41:31,411 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 13:41:31,497 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 13:41:31,818 - [test_invest.py-->line:100] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 13:41:56,746 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 13:41:56,830 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 13:41:56,902 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 13:41:57,072 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 13:41:57,339 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-23 13:41:57,340 - [test_invest.py-->line:94] - ERROR: 300 != Decimal('301.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertEqual(data["amount"],count_amount+1)
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 300 != Decimal('301.00')
+2024-03-23 13:41:57,443 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 13:41:57,495 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 13:41:57,547 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 13:41:57,622 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 13:41:57,896 - [test_invest.py-->line:93] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 13:41:57,896 - [test_invest.py-->line:94] - ERROR: 3700 != Decimal('3701.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertEqual(data["amount"],count_amount+1)
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 3700 != Decimal('3701.00')
+2024-03-23 13:42:18,453 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 13:42:18,521 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 13:42:18,581 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 13:42:18,685 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 13:42:18,963 - [test_invest.py-->line:100] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 13:42:19,041 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 13:42:19,096 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 13:42:19,161 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 13:42:19,226 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 13:42:19,497 - [test_invest.py-->line:100] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:03:32,907 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:03:33,169 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:03:33,245 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:03:33,374 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:03:33,635 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:03:33,712 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:03:33,768 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 14:03:33,831 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:03:33,920 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:03:34,265 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:03:54,328 - [test_invest.py-->line:102] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:03:54,413 - [test_invest.py-->line:102] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:03:54,487 - [test_invest.py-->line:102] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:03:54,621 - [test_invest.py-->line:102] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:03:54,877 - [test_invest.py-->line:102] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:03:54,942 - [test_invest.py-->line:102] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:03:55,002 - [test_invest.py-->line:102] - INFO: 标id为空,用例执行通过
+2024-03-23 14:03:55,065 - [test_invest.py-->line:102] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:03:55,161 - [test_invest.py-->line:102] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:03:55,419 - [test_invest.py-->line:102] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:05:38,409 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:05:38,491 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:05:38,571 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:05:38,694 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:05:38,941 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:05:39,019 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:05:39,152 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 14:05:39,394 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:05:39,478 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:05:39,991 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:06:24,108 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:06:24,175 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:06:24,240 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:06:24,348 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:06:24,593 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:06:24,658 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:06:24,725 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 14:06:24,778 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:06:24,839 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:06:25,149 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:06:57,716 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:06:57,810 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:06:57,880 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:06:58,003 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:06:58,261 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-23 14:06:58,261 - [test_invest.py-->line:94] - ERROR: {'id': 47772, 'member_id': 183973, 'loan_id': 105071, 'amount': Decimal('300.00'), 'create_time': datetime.datetime(2024, 3, 23, 14, 6, 58), 'is_valid': 1} is not false
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertFalse(sql1)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: {'id': 47772, 'member_id': 183973, 'loan_id': 105071, 'amount': Decimal('300.00'), 'create_time': datetime.datetime(2024, 3, 23, 14, 6, 58), 'is_valid': 1} is not false
+2024-03-23 14:06:58,357 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:06:58,412 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 14:06:58,463 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:06:58,525 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:06:58,803 - [test_invest.py-->line:93] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 14:06:58,803 - [test_invest.py-->line:94] - ERROR: {'id': 47772, 'member_id': 183973, 'loan_id': 105071, 'amount': Decimal('300.00'), 'create_time': datetime.datetime(2024, 3, 23, 14, 6, 58), 'is_valid': 1} is not false
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertFalse(sql1)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: {'id': 47772, 'member_id': 183973, 'loan_id': 105071, 'amount': Decimal('300.00'), 'create_time': datetime.datetime(2024, 3, 23, 14, 6, 58), 'is_valid': 1} is not false
+2024-03-23 14:08:41,720 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:08:41,804 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:08:41,896 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:08:42,027 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:08:42,522 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:08:42,593 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:08:42,652 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 14:08:42,724 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:08:42,799 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:08:43,103 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:11:32,248 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:11:32,346 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:11:32,447 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:11:32,573 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:11:32,848 - [test_invest.py-->line:100] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:11:32,944 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:11:33,014 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 14:11:33,074 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:11:33,152 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:11:33,415 - [test_invest.py-->line:100] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:17:26,557 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:17:26,649 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:17:26,745 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:17:26,866 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:17:27,005 - [test_invest.py-->line:93] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-23 14:17:27,005 - [test_invest.py-->line:94] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 80, in test_invest
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2024-03-23 14:17:27,100 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:17:27,166 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 14:17:27,224 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:17:27,293 - [test_invest.py-->line:93] - ERROR: 投资金额大于项目可投金额，用例执行不通过
+2024-03-23 14:17:27,293 - [test_invest.py-->line:94] - ERROR: '该标可投金额不足,可投金额：3700.0' != '该标可投金额不足,可投金额：4000.0'
+- 该标可投金额不足,可投金额：3700.0
+?               ^^
++ 该标可投金额不足,可投金额：4000.0
+?               ^^
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 81, in test_invest
+    self.assertEqual(expected["msg"],res["msg"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '该标可投金额不足,可投金额：3700.0' != '该标可投金额不足,可投金额：4000.0'
+- 该标可投金额不足,可投金额：3700.0
+?               ^^
++ 该标可投金额不足,可投金额：4000.0
+?               ^^
+
+2024-03-23 14:17:27,564 - [test_invest.py-->line:100] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:18:39,450 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:18:39,526 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:18:39,601 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:18:39,726 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:18:39,966 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:18:40,049 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:18:40,113 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 14:18:40,166 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:18:40,227 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:18:40,523 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:19:20,601 - [test_invest.py-->line:102] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:19:20,684 - [test_invest.py-->line:102] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:19:20,753 - [test_invest.py-->line:102] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:19:20,865 - [test_invest.py-->line:102] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:19:21,254 - [test_invest.py-->line:102] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:19:21,334 - [test_invest.py-->line:102] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:19:21,396 - [test_invest.py-->line:102] - INFO: 标id为空,用例执行通过
+2024-03-23 14:19:21,458 - [test_invest.py-->line:102] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:19:21,542 - [test_invest.py-->line:102] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:19:21,824 - [test_invest.py-->line:102] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:20:28,405 - [test_recharge.py-->line:69] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:20:29,241 - [test_recharge.py-->line:69] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 14:20:29,600 - [test_recharge.py-->line:69] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 14:20:29,966 - [test_recharge.py-->line:69] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:20:30,029 - [test_recharge.py-->line:69] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:20:30,098 - [test_recharge.py-->line:69] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:20:30,221 - [test_recharge.py-->line:69] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:20:30,303 - [test_recharge.py-->line:69] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:20:30,368 - [test_recharge.py-->line:63] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:20:30,368 - [test_recharge.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:20:30,473 - [test_recharge.py-->line:69] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:20:30,555 - [test_recharge.py-->line:69] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:20:30,636 - [test_recharge.py-->line:69] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:20:30,710 - [test_recharge.py-->line:69] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:20:30,763 - [test_recharge.py-->line:69] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:21:02,949 - [test_recharge.py-->line:69] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:21:03,419 - [test_recharge.py-->line:69] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 14:21:03,867 - [test_recharge.py-->line:69] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 14:21:04,560 - [test_recharge.py-->line:69] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:21:04,617 - [test_recharge.py-->line:69] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:21:04,683 - [test_recharge.py-->line:69] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:21:04,733 - [test_recharge.py-->line:69] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:21:04,780 - [test_recharge.py-->line:69] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:21:04,838 - [test_recharge.py-->line:63] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:21:04,838 - [test_recharge.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:21:04,908 - [test_recharge.py-->line:69] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:21:04,958 - [test_recharge.py-->line:69] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:21:05,007 - [test_recharge.py-->line:69] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:21:05,057 - [test_recharge.py-->line:69] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:21:05,113 - [test_recharge.py-->line:69] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:21:47,705 - [test_recharge.py-->line:70] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:21:48,311 - [test_recharge.py-->line:70] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 14:21:48,864 - [test_recharge.py-->line:70] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 14:21:49,352 - [test_recharge.py-->line:70] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:21:49,414 - [test_recharge.py-->line:70] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:21:49,476 - [test_recharge.py-->line:70] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:21:49,547 - [test_recharge.py-->line:70] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:21:49,655 - [test_recharge.py-->line:70] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:21:50,103 - [test_recharge.py-->line:64] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:21:50,103 - [test_recharge.py-->line:65] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:21:50,188 - [test_recharge.py-->line:70] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:21:50,251 - [test_recharge.py-->line:70] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:21:50,320 - [test_recharge.py-->line:70] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:21:50,431 - [test_recharge.py-->line:70] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:21:50,493 - [test_recharge.py-->line:70] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:22:45,971 - [test_recharge.py-->line:70] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:22:46,265 - [test_recharge.py-->line:70] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 14:22:46,569 - [test_recharge.py-->line:70] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 14:22:46,880 - [test_recharge.py-->line:70] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:22:46,936 - [test_recharge.py-->line:70] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:22:46,993 - [test_recharge.py-->line:70] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:22:47,042 - [test_recharge.py-->line:70] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:22:47,093 - [test_recharge.py-->line:70] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:22:47,156 - [test_recharge.py-->line:64] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:22:47,156 - [test_recharge.py-->line:65] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:22:47,232 - [test_recharge.py-->line:70] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:22:47,283 - [test_recharge.py-->line:70] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:22:47,329 - [test_recharge.py-->line:70] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:22:47,377 - [test_recharge.py-->line:70] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:22:47,429 - [test_recharge.py-->line:70] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:23:34,959 - [test_recharge.py-->line:70] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:23:35,320 - [test_recharge.py-->line:64] - ERROR: （充值成功-1位小数）,该用例没有通过
+2024-03-23 14:23:35,320 - [test_recharge.py-->line:65] - ERROR: Decimal('600.10') != 600.1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 60, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.10') != 600.1
+2024-03-23 14:23:35,710 - [test_recharge.py-->line:64] - ERROR: （充值成功-2位小数）,该用例没有通过
+2024-03-23 14:23:35,710 - [test_recharge.py-->line:65] - ERROR: Decimal('600.22') != 600.22
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 60, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.22') != 600.22
+2024-03-23 14:23:36,130 - [test_recharge.py-->line:70] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:23:36,182 - [test_recharge.py-->line:70] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:23:36,234 - [test_recharge.py-->line:70] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:23:36,286 - [test_recharge.py-->line:70] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:23:36,416 - [test_recharge.py-->line:70] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:23:36,816 - [test_recharge.py-->line:64] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:23:36,816 - [test_recharge.py-->line:65] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 51, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:23:36,900 - [test_recharge.py-->line:70] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:23:36,966 - [test_recharge.py-->line:70] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:23:37,014 - [test_recharge.py-->line:70] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:23:37,064 - [test_recharge.py-->line:70] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:23:37,122 - [test_recharge.py-->line:70] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:32:19,278 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-23 14:32:19,333 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-23 14:32:19,401 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-23 14:32:19,453 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-23 14:32:19,504 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-23 14:32:19,561 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-23 14:32:19,628 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-23 14:32:19,698 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-23 14:32:19,753 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-23 14:32:19,810 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-23 14:32:19,861 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-23 14:32:20,141 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-23 14:32:20,289 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-23 14:32:20,399 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-23 14:32:20,485 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-23 14:32:20,598 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-23 14:32:20,709 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-23 14:32:20,845 - [test_invest.py-->line:102] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 14:32:20,927 - [test_invest.py-->line:102] - INFO: 管理员加标,用例执行通过
+2024-03-23 14:32:20,993 - [test_invest.py-->line:102] - INFO: 管理员审核,用例执行通过
+2024-03-23 14:32:21,108 - [test_invest.py-->line:102] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 14:32:21,358 - [test_invest.py-->line:102] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 14:32:21,440 - [test_invest.py-->line:102] - INFO: 投资人id为空,用例执行通过
+2024-03-23 14:32:21,501 - [test_invest.py-->line:102] - INFO: 标id为空,用例执行通过
+2024-03-23 14:32:21,557 - [test_invest.py-->line:102] - INFO: 投资金额为空,用例执行通过
+2024-03-23 14:32:21,627 - [test_invest.py-->line:102] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 14:32:21,882 - [test_invest.py-->line:102] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 14:32:22,375 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:32:22,706 - [test_recharge.py-->line:65] - ERROR: （充值成功-1位小数）,该用例没有通过
+2024-03-23 14:32:22,706 - [test_recharge.py-->line:66] - ERROR: Decimal('600.10') != 600.1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.10') != 600.1
+2024-03-23 14:32:23,097 - [test_recharge.py-->line:65] - ERROR: （充值成功-2位小数）,该用例没有通过
+2024-03-23 14:32:23,097 - [test_recharge.py-->line:66] - ERROR: Decimal('600.22') != 600.22
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.22') != 600.22
+2024-03-23 14:32:23,452 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:32:23,520 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:32:23,592 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:32:23,643 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:32:23,695 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:32:23,753 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:32:23,753 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:32:23,799 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:32:23,861 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:32:23,912 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:32:23,960 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:32:24,021 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 14:32:24,157 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-23 14:32:24,280 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-23 14:32:24,329 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-23 14:32:24,376 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-23 14:32:24,427 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-23 14:32:24,495 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-23 14:32:24,610 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-23 14:32:24,666 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-23 14:32:24,717 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-23 14:32:24,784 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-23 14:32:24,837 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-23 14:32:24,898 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-23 14:32:25,028 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-23 14:32:25,176 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-23 14:32:26,144 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-23 14:32:26,552 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-23 14:32:26,815 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-23 14:32:27,159 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-23 14:32:27,212 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:32:27,269 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-23 14:32:27,337 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:32:27,389 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:32:27,454 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-23 14:32:27,454 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:32:27,515 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-23 14:32:27,561 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-23 14:32:27,639 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-23 14:32:27,693 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-23 14:32:27,750 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-23 14:42:38,007 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 14:42:38,390 - [test_recharge.py-->line:65] - ERROR: （充值成功-1位小数）,该用例没有通过
+2024-03-23 14:42:38,390 - [test_recharge.py-->line:66] - ERROR: Decimal('600.10') != 600.1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.10') != 600.1
+2024-03-23 14:42:38,846 - [test_recharge.py-->line:65] - ERROR: （充值成功-2位小数）,该用例没有通过
+2024-03-23 14:42:38,847 - [test_recharge.py-->line:66] - ERROR: Decimal('600.22') != 600.22
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.22') != 600.22
+2024-03-23 14:42:39,160 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 14:42:39,217 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 14:42:39,274 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 14:42:39,321 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 14:42:39,370 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 14:42:39,440 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 14:42:39,440 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 14:42:39,496 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 14:42:39,547 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 14:42:39,597 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 14:42:39,650 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 14:42:39,700 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 15:42:54,357 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 15:42:55,010 - [test_recharge.py-->line:65] - ERROR: （充值成功-1位小数）,该用例没有通过
+2024-03-23 15:42:55,010 - [test_recharge.py-->line:66] - ERROR: Decimal('600.10') != 600.1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.10') != 600.1
+2024-03-23 15:42:55,622 - [test_recharge.py-->line:65] - ERROR: （充值成功-2位小数）,该用例没有通过
+2024-03-23 15:42:55,622 - [test_recharge.py-->line:66] - ERROR: Decimal('600.22') != 600.22
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , data["amount"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600.22') != 600.22
+2024-03-23 15:42:56,144 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 15:42:56,260 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 15:42:56,384 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 15:42:56,508 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 15:42:56,659 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 15:42:56,803 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 15:42:56,803 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 15:42:56,978 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 15:42:57,107 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 15:42:57,227 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 15:42:57,308 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 15:42:57,383 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 15:43:19,867 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 15:43:20,664 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 15:43:21,333 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 15:43:21,974 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 15:43:22,089 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 15:43:22,250 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 15:43:22,340 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 15:43:22,459 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 15:43:22,565 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 15:43:22,565 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 15:43:22,699 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 15:43:22,781 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 15:43:22,895 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 15:43:23,070 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 15:43:23,251 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 15:43:42,006 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 15:43:42,593 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 15:43:43,194 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 15:43:43,760 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 15:43:43,854 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 15:43:44,094 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 15:43:44,236 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 15:43:44,345 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 15:43:44,474 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 15:43:44,474 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 15:43:44,638 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 15:43:44,741 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 15:43:44,874 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 15:43:44,982 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 15:43:45,151 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 15:44:05,363 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-23 15:44:06,031 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-23 15:44:06,691 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-23 15:44:07,360 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-23 15:44:07,513 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-23 15:44:07,683 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-23 15:44:07,795 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-23 15:44:07,899 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-23 15:44:08,032 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-23 15:44:08,032 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-23 15:44:08,141 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-23 15:44:08,305 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-23 15:44:08,420 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-23 15:44:08,538 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-23 15:44:08,661 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-23 15:47:37,333 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 15:47:37,476 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 15:47:37,600 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 15:47:37,831 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 15:47:38,475 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 15:47:38,635 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 15:47:38,752 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 15:47:38,861 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 15:47:38,959 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 15:47:39,748 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:00:44,671 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:00:44,827 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:00:44,970 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:00:45,147 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:00:45,869 - [test_invest.py-->line:94] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-23 16:00:45,869 - [test_invest.py-->line:95] - ERROR: Decimal('-57544535.36') != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertEqual(end_invest - start_amount,1)
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('-57544535.36') != 1
+2024-03-23 16:00:46,065 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:00:46,350 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 16:00:46,562 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:00:46,708 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:00:47,626 - [test_invest.py-->line:94] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:00:47,626 - [test_invest.py-->line:95] - ERROR: Decimal('-57544234.36') != 1
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 89, in test_invest
+    self.assertEqual(end_invest - start_amount,1)
+  File "/private/var/folders/c9/9swmhhnx4mv_zqlnbk5thgyh0000gn/T/AppTranslocation/AE5045B6-8946-469B-99BE-985F0D5DDA07/d/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('-57544234.36') != 1
+2024-03-23 16:01:27,803 - [test_invest.py-->line:100] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:01:27,953 - [test_invest.py-->line:100] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:01:28,093 - [test_invest.py-->line:100] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:01:28,309 - [test_invest.py-->line:100] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:01:29,096 - [test_invest.py-->line:100] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:01:29,218 - [test_invest.py-->line:100] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:01:29,310 - [test_invest.py-->line:100] - INFO: 标id为空,用例执行通过
+2024-03-23 16:01:29,426 - [test_invest.py-->line:100] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:01:29,562 - [test_invest.py-->line:100] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:01:30,427 - [test_invest.py-->line:100] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:04:58,430 - [test_invest.py-->line:101] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:04:58,585 - [test_invest.py-->line:101] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:04:58,710 - [test_invest.py-->line:101] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:04:58,894 - [test_invest.py-->line:101] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:04:59,706 - [test_invest.py-->line:101] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:04:59,826 - [test_invest.py-->line:101] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:04:59,957 - [test_invest.py-->line:101] - INFO: 标id为空,用例执行通过
+2024-03-23 16:05:00,070 - [test_invest.py-->line:101] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:05:00,188 - [test_invest.py-->line:101] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:05:01,000 - [test_invest.py-->line:101] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:12:04,002 - [test_invest.py-->line:110] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:12:04,164 - [test_invest.py-->line:110] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:12:04,304 - [test_invest.py-->line:110] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:12:04,494 - [test_invest.py-->line:110] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:12:05,799 - [test_invest.py-->line:110] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:12:05,943 - [test_invest.py-->line:110] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:12:06,099 - [test_invest.py-->line:110] - INFO: 标id为空,用例执行通过
+2024-03-23 16:12:06,183 - [test_invest.py-->line:110] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:12:06,306 - [test_invest.py-->line:110] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:12:07,744 - [test_invest.py-->line:110] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:31:39,754 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:31:39,897 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:31:40,019 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:31:40,176 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:31:41,770 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:31:41,902 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:31:42,021 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:31:42,139 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:31:42,256 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:31:43,937 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:32:02,337 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:32:02,559 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:32:02,776 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:32:02,977 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:32:04,976 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:32:05,101 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:32:05,216 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:32:05,341 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:32:05,493 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:32:07,217 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:32:25,154 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:32:25,295 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:32:25,461 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:32:25,627 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:32:26,935 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:32:27,061 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:32:27,175 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:32:27,295 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:32:27,416 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:32:29,017 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:33:08,393 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:33:08,541 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:33:08,658 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:33:08,818 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:33:10,140 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:33:10,319 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:33:10,420 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:33:10,542 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:33:10,655 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:33:12,376 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:33:25,600 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:33:25,757 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:33:25,866 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:33:26,108 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:33:27,500 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:33:27,678 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:33:27,784 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:33:27,896 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:33:28,017 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:33:29,657 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:34:43,113 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:34:43,256 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:34:43,364 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:34:43,535 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:34:44,815 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:34:44,938 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:34:45,095 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:34:45,219 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:34:45,335 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:34:47,123 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:38:43,696 - [test_invest.py-->line:115] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:38:43,823 - [test_invest.py-->line:115] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:38:43,928 - [test_invest.py-->line:115] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:38:44,094 - [test_invest.py-->line:115] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:38:46,060 - [test_invest.py-->line:115] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:38:46,271 - [test_invest.py-->line:115] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:38:46,367 - [test_invest.py-->line:115] - INFO: 标id为空,用例执行通过
+2024-03-23 16:38:46,458 - [test_invest.py-->line:115] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:38:46,574 - [test_invest.py-->line:115] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:38:49,089 - [test_invest.py-->line:115] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:53:39,335 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:53:39,511 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:53:39,691 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:53:39,841 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:53:41,364 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:53:41,555 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:53:41,708 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 16:53:41,804 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:53:41,920 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:53:43,651 - [test_invest.py-->line:114] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:53:43,652 - [test_invest.py-->line:115] - ERROR: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 106, in test_invest
+    sql5 = "SELECT * FROM futureloan.repayment WHERE invest_id={}".format(invest["id"])
+                                                                          ~~~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-23 16:55:52,013 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:55:52,137 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:55:52,256 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:55:52,412 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:55:53,898 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:55:54,044 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:55:54,201 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:55:54,324 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:55:54,488 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:55:56,051 - [test_invest.py-->line:113] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:55:56,052 - [test_invest.py-->line:114] - ERROR: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 103, in test_invest
+    sql4 = self.db.find__all("SELECT * FROM future.repayment WHERE invest_id={}".format(sql3["id"]))
+                                                                                        ~~~~^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-03-23 16:57:12,095 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:57:12,300 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:57:12,415 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:57:12,657 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:57:14,260 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:57:14,416 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:57:14,531 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:57:14,651 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:57:14,770 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:57:16,571 - [test_invest.py-->line:113] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:57:16,571 - [test_invest.py-->line:114] - ERROR: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 103, in test_invest
+    sql4 = self.db.find__all("SELECT * FROM future.repayment WHERE invest_id={}".format(sql3["id"]))
+                                                                                        ~~~~^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-03-23 16:57:40,694 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:57:40,811 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:57:40,924 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:57:41,130 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:57:42,626 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:57:42,769 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:57:42,950 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:57:43,109 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:57:43,269 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:57:44,964 - [test_invest.py-->line:119] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 16:58:15,094 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:58:15,268 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:58:15,375 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:58:15,571 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:58:16,938 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:58:17,103 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:58:17,217 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:58:17,330 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:58:17,450 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:58:19,171 - [test_invest.py-->line:113] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:58:19,172 - [test_invest.py-->line:114] - ERROR: 'DB' object has no attribute 'find_count'
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 107, in test_invest
+    count = self.db.find_count("SELECT * FROM futureloan.repayment WHERE invest_id={}".format(invest["id"]))
+            ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DB' object has no attribute 'find_count'. Did you mean: 'find__count'?
+2024-03-23 16:58:52,296 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:58:52,454 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:58:52,577 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:58:52,731 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:58:54,257 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:58:54,418 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:58:54,535 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:58:54,655 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:58:54,770 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:58:56,612 - [test_invest.py-->line:113] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 16:58:56,614 - [test_invest.py-->line:114] - ERROR: (1142, "SELECT command denied to user 'future'@'112.97.55.152' for table 'repayment'")
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 107, in test_invest
+    count = self.db.find__count("SELECT * FROM futureloan.repayment WHERE invest_id={}".format(invest["id"]))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bytedance/Downloads/student/test_api/common/connectdb.py", line 38, in find__count
+    data = self.cur.execute(sql)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1142, "SELECT command denied to user 'future'@'112.97.55.152' for table 'repayment'")
+2024-03-23 16:59:40,327 - [test_invest.py-->line:119] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 16:59:40,513 - [test_invest.py-->line:119] - INFO: 管理员加标,用例执行通过
+2024-03-23 16:59:40,659 - [test_invest.py-->line:119] - INFO: 管理员审核,用例执行通过
+2024-03-23 16:59:40,879 - [test_invest.py-->line:119] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 16:59:42,377 - [test_invest.py-->line:119] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 16:59:42,535 - [test_invest.py-->line:119] - INFO: 投资人id为空,用例执行通过
+2024-03-23 16:59:42,656 - [test_invest.py-->line:119] - INFO: 标id为空,用例执行通过
+2024-03-23 16:59:42,770 - [test_invest.py-->line:119] - INFO: 投资金额为空,用例执行通过
+2024-03-23 16:59:42,890 - [test_invest.py-->line:119] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 16:59:44,852 - [test_invest.py-->line:119] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 17:00:18,153 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:00:18,295 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:00:18,544 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:00:18,732 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:00:20,257 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:00:20,398 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:00:20,523 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 17:00:20,651 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:00:20,778 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:00:22,650 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 17:00:46,875 - [test_invest.py-->line:121] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:00:47,018 - [test_invest.py-->line:121] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:00:47,169 - [test_invest.py-->line:121] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:00:47,370 - [test_invest.py-->line:121] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:00:48,865 - [test_invest.py-->line:121] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:00:49,015 - [test_invest.py-->line:121] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:00:49,175 - [test_invest.py-->line:121] - INFO: 标id为空,用例执行通过
+2024-03-23 17:00:49,290 - [test_invest.py-->line:121] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:00:49,409 - [test_invest.py-->line:121] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:00:51,410 - [test_invest.py-->line:121] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 17:03:43,746 - [test_invest.py-->line:121] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:03:43,931 - [test_invest.py-->line:121] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:03:44,037 - [test_invest.py-->line:121] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:03:44,210 - [test_invest.py-->line:121] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:03:45,732 - [test_invest.py-->line:121] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:03:45,884 - [test_invest.py-->line:121] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:03:46,003 - [test_invest.py-->line:121] - INFO: 标id为空,用例执行通过
+2024-03-23 17:03:46,140 - [test_invest.py-->line:121] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:03:46,256 - [test_invest.py-->line:121] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:03:47,971 - [test_invest.py-->line:115] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 17:03:47,972 - [test_invest.py-->line:116] - ERROR: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 108, in test_invest
+    count = self.db.find__count("SELECT * FROM future.repayment WHERE invest_id={}".format(invest["id"]))
+                                                                                           ~~~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-23 17:56:01,549 - [test_invest.py-->line:121] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:56:01,671 - [test_invest.py-->line:121] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:56:01,784 - [test_invest.py-->line:121] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:56:01,970 - [test_invest.py-->line:121] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:56:03,160 - [test_invest.py-->line:121] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:56:03,262 - [test_invest.py-->line:121] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:56:03,349 - [test_invest.py-->line:121] - INFO: 标id为空,用例执行通过
+2024-03-23 17:56:03,440 - [test_invest.py-->line:121] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:56:03,535 - [test_invest.py-->line:121] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:56:04,926 - [test_invest.py-->line:115] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-23 17:56:04,926 - [test_invest.py-->line:116] - ERROR: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 108, in test_invest
+    count = self.db.find__count("SELECT * FROM future.repayment WHERE invest_id={}".format(invest["id"]))
+                                                                                           ~~~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-23 17:58:01,989 - [test_invest.py-->line:122] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:58:02,099 - [test_invest.py-->line:122] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:58:02,218 - [test_invest.py-->line:122] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:58:02,371 - [test_invest.py-->line:122] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:58:03,632 - [test_invest.py-->line:122] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:58:03,731 - [test_invest.py-->line:122] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:58:03,834 - [test_invest.py-->line:122] - INFO: 标id为空,用例执行通过
+2024-03-23 17:58:03,925 - [test_invest.py-->line:122] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:58:04,012 - [test_invest.py-->line:122] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:58:05,443 - [test_invest.py-->line:122] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 17:59:04,054 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:59:04,197 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:59:04,301 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:59:04,461 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:59:05,787 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:59:05,901 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:59:05,996 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 17:59:06,101 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:59:06,206 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:59:07,868 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 17:59:27,709 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 17:59:27,835 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 17:59:27,946 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 17:59:28,113 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 17:59:29,441 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 17:59:29,552 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 17:59:29,637 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 17:59:29,740 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 17:59:29,840 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 17:59:31,562 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 18:05:03,084 - [test_invest.py-->line:118] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 18:05:03,221 - [test_invest.py-->line:118] - INFO: 管理员加标,用例执行通过
+2024-03-23 18:05:03,331 - [test_invest.py-->line:118] - INFO: 管理员审核,用例执行通过
+2024-03-23 18:05:03,482 - [test_invest.py-->line:118] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 18:05:04,799 - [test_invest.py-->line:118] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 18:05:04,938 - [test_invest.py-->line:118] - INFO: 投资人id为空,用例执行通过
+2024-03-23 18:05:05,054 - [test_invest.py-->line:118] - INFO: 标id为空,用例执行通过
+2024-03-23 18:05:05,156 - [test_invest.py-->line:118] - INFO: 投资金额为空,用例执行通过
+2024-03-23 18:05:05,280 - [test_invest.py-->line:118] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 18:05:07,011 - [test_invest.py-->line:118] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 18:06:43,969 - [test_invest.py-->line:118] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 18:06:44,121 - [test_invest.py-->line:118] - INFO: 管理员加标,用例执行通过
+2024-03-23 18:06:44,247 - [test_invest.py-->line:118] - INFO: 管理员审核,用例执行通过
+2024-03-23 18:06:44,421 - [test_invest.py-->line:118] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 18:06:45,803 - [test_invest.py-->line:118] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 18:06:45,913 - [test_invest.py-->line:118] - INFO: 投资人id为空,用例执行通过
+2024-03-23 18:06:46,020 - [test_invest.py-->line:118] - INFO: 标id为空,用例执行通过
+2024-03-23 18:06:46,119 - [test_invest.py-->line:118] - INFO: 投资金额为空,用例执行通过
+2024-03-23 18:06:46,220 - [test_invest.py-->line:118] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 18:06:48,037 - [test_invest.py-->line:118] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 18:20:47,361 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 18:20:47,490 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 18:20:47,598 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 18:20:47,773 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 18:20:49,080 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 18:20:49,359 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 18:20:49,599 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 18:20:49,770 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 18:20:49,889 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 18:20:51,545 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 18:21:38,486 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 18:21:38,629 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 18:21:38,753 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 18:21:38,921 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 18:21:40,181 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 18:21:40,326 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 18:21:40,444 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 18:21:40,553 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 18:21:40,660 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 18:21:42,441 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-23 18:22:54,274 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-23 18:22:54,390 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-23 18:22:54,485 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-23 18:22:54,644 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-23 18:22:55,950 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-23 18:22:56,098 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-23 18:22:56,215 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-23 18:22:56,326 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-23 18:22:56,429 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-23 18:22:58,194 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 15:20:59,091 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 15:20:59,287 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 15:20:59,397 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 15:20:59,809 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 15:20:59,959 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 15:21:00,102 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 15:21:00,203 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 15:21:00,316 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 15:21:00,475 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 15:21:00,635 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 15:21:00,752 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 15:21:01,530 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 15:21:02,067 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 15:21:02,388 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 15:21:02,635 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 15:21:02,854 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 15:21:03,037 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 15:21:03,266 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 15:21:03,372 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 15:21:03,492 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 15:21:03,669 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 15:21:05,050 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-24 15:21:05,215 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 15:21:05,338 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 15:21:05,450 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 15:21:05,555 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 15:21:07,060 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 15:21:07,890 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 15:21:08,386 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 15:21:08,901 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 15:21:09,421 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 15:21:09,526 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:21:09,615 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 15:21:09,723 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:21:09,818 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:21:09,915 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 15:21:09,915 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:21:09,999 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 15:21:10,075 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 15:21:10,158 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 15:21:10,258 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 15:21:10,353 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 15:21:10,577 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 15:21:10,740 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 15:21:10,836 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 15:21:10,934 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 15:21:11,022 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 15:21:11,124 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 15:21:11,305 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 15:21:11,401 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 15:21:11,505 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 15:21:11,598 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 15:21:11,680 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 15:21:11,787 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 15:21:12,048 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 15:21:12,269 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 15:21:12,687 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 15:21:13,241 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 15:21:13,722 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 15:21:14,162 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 15:21:14,291 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:21:14,368 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 15:21:14,455 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:21:14,538 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:21:14,618 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 15:21:14,618 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:21:14,712 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 15:21:14,805 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 15:21:14,945 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 15:21:15,020 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 15:21:15,099 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-24 15:33:00,451 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 15:33:00,587 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 15:33:00,698 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 15:33:00,814 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 15:33:00,923 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 15:33:01,014 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 15:33:01,177 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 15:33:01,294 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 15:33:01,417 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 15:33:01,535 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 15:33:01,707 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 15:33:02,231 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 15:33:02,652 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 15:33:02,892 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 15:33:03,114 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 15:33:03,373 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 15:33:03,637 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 15:33:03,864 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 15:33:04,003 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 15:33:04,106 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 15:33:04,280 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 15:33:05,677 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-24 15:33:05,844 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 15:33:05,979 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 15:33:06,170 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 15:33:06,280 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 15:33:08,069 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 15:33:09,058 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 15:33:09,609 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 15:33:10,130 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 15:33:10,745 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 15:33:10,868 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:33:10,971 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 15:33:11,065 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:33:11,239 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:33:11,359 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 15:33:11,359 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:33:11,459 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 15:33:11,596 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 15:33:11,711 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 15:33:11,845 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 15:33:11,934 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 15:33:12,155 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 15:33:12,380 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 15:33:12,500 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 15:33:12,611 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 15:33:12,738 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 15:33:12,815 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 15:33:12,957 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 15:33:13,093 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 15:33:13,194 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 15:33:13,304 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 15:33:13,382 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 15:33:13,521 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 15:33:13,734 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 15:33:13,999 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 15:33:14,495 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 15:33:15,082 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 15:33:15,689 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 15:33:16,249 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 15:33:16,339 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:33:16,458 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 15:33:16,603 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:33:16,711 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:33:16,829 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 15:33:16,829 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:33:17,010 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 15:33:17,143 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 15:33:17,271 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 15:33:17,370 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 15:33:17,458 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-24 15:33:50,474 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 15:33:50,887 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 15:33:51,121 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 15:33:51,284 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 15:33:51,379 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 15:33:51,495 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 15:33:51,605 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 15:33:51,768 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 15:33:51,989 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 15:33:55,288 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 15:33:55,551 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 15:33:56,150 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 15:33:56,601 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 15:33:56,860 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 15:33:57,073 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 15:33:57,317 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 15:33:57,513 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 15:33:58,230 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 15:33:58,345 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 15:33:58,489 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 15:33:58,692 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 15:34:00,098 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-24 15:34:00,225 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 15:34:00,382 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 15:34:00,470 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 15:34:00,622 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 15:34:02,714 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 15:34:03,637 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 15:34:04,210 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 15:34:04,769 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 15:34:05,484 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 15:34:05,650 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:34:05,784 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 15:34:05,902 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:34:06,027 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:34:06,151 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 15:34:06,152 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:34:06,259 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 15:34:06,341 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 15:34:06,448 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 15:34:06,620 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 15:34:06,749 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 15:34:07,048 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 15:34:07,279 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 15:34:07,385 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 15:34:07,510 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 15:34:07,624 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 15:34:07,804 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 15:34:07,960 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 15:34:08,112 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 15:34:08,220 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 15:34:08,310 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 15:34:08,415 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 15:34:08,686 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 15:34:08,889 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 15:34:09,177 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 15:34:09,771 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 15:34:10,341 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 15:34:10,827 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 15:34:11,395 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 15:34:11,549 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 15:34:11,674 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 15:34:11,833 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 15:34:11,984 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 15:34:12,117 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 15:34:12,117 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 15:34:12,317 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 15:34:12,438 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 15:34:12,616 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 15:34:12,784 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 15:34:12,945 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-24 23:37:03,793 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 23:37:04,794 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 23:37:04,868 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 23:37:05,136 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 23:37:05,387 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 23:37:05,479 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 23:37:06,949 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 23:37:07,755 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 23:37:09,948 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 23:37:10,078 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 23:37:10,470 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 23:37:19,869 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 23:37:27,618 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 23:37:28,533 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 23:37:33,057 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 23:37:33,556 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 23:37:33,726 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 23:37:33,872 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 23:37:33,981 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 23:37:34,052 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 23:37:34,167 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 23:37:34,846 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 23:37:35,226 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 23:37:35,615 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 23:37:35,679 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 23:37:35,751 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 23:37:35,943 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 23:37:36,223 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 23:37:36,547 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 23:37:36,970 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 23:37:37,059 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 23:37:37,164 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 23:37:37,949 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 23:37:38,180 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 23:37:38,294 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 23:37:38,507 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 23:37:39,515 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 23:37:39,654 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 23:37:39,846 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 23:37:39,932 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 23:37:40,027 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 23:37:40,153 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 23:37:44,062 - [test_invest.py-->line:114] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-24 23:37:44,062 - [test_invest.py-->line:115] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 100, in test_invest
+    self.assertEqual(1,end_log - start_log)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2024-03-24 23:37:44,805 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 23:37:44,910 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 23:37:45,010 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 23:37:45,010 - [test_invest.py-->line:114] - ERROR: 投资人正常投资，用例执行不通过
+2024-03-24 23:37:45,010 - [test_invest.py-->line:115] - ERROR: 300 != Decimal('600.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 99, in test_invest
+    self.assertEqual(data["amount"],count_amount)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 300 != Decimal('600.00')
+2024-03-24 23:37:45,114 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 23:37:45,114 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 23:37:45,175 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 23:37:45,737 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 23:37:45,830 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 23:37:47,312 - [test_invest.py-->line:114] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-24 23:37:47,312 - [test_invest.py-->line:115] - ERROR: 3700 != Decimal('7400.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 99, in test_invest
+    self.assertEqual(data["amount"],count_amount)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 3700 != Decimal('7400.00')
+2024-03-24 23:37:47,578 - [test_invest.py-->line:114] - ERROR: 投资金额等于项目可投金额，用例执行不通过
+2024-03-24 23:37:47,578 - [test_invest.py-->line:115] - ERROR: 3700 != Decimal('7400.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_invest.py", line 99, in test_invest
+    self.assertEqual(data["amount"],count_amount)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 3700 != Decimal('7400.00')
+2024-03-24 23:37:47,876 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 23:37:48,211 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 23:37:48,260 - [test_recharge.py-->line:65] - ERROR: （充值成功-1位小数）,该用例没有通过
+2024-03-24 23:37:48,260 - [test_recharge.py-->line:66] - ERROR: Decimal('1200.10') != Decimal('600.1')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , Decimal(str(data["amount"])))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('1200.10') != Decimal('600.1')
+2024-03-24 23:37:48,538 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 23:37:48,593 - [test_recharge.py-->line:65] - ERROR: （充值成功-2位小数）,该用例没有通过
+2024-03-24 23:37:48,593 - [test_recharge.py-->line:66] - ERROR: Decimal('1200.32') != Decimal('600.22')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , Decimal(str(data["amount"])))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('1200.32') != Decimal('600.22')
+2024-03-24 23:37:48,905 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 23:37:49,044 - [test_recharge.py-->line:65] - ERROR: （充值成功-50万）,该用例没有通过
+2024-03-24 23:37:49,044 - [test_recharge.py-->line:66] - ERROR: Decimal('500600.22') != Decimal('500000')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 61, in test_recharge
+    self.assertEqual(end_amount - start_amount , Decimal(str(data["amount"])))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('500600.22') != Decimal('500000')
+2024-03-24 23:37:49,148 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:37:49,208 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 23:37:49,265 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:37:49,374 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:37:49,399 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 23:37:49,434 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 23:37:49,434 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:37:49,496 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 23:37:49,582 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:37:49,653 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:37:49,719 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 23:37:49,758 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 23:37:49,815 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 23:37:49,865 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 23:37:49,913 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 23:37:50,023 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 23:37:50,148 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 23:37:50,201 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 23:37:51,873 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 23:37:52,588 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 23:37:52,589 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 23:37:52,672 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 23:37:52,673 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 23:37:52,836 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 23:37:52,848 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 23:37:53,000 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 23:37:53,103 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 23:37:53,189 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 23:37:53,302 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 23:37:53,563 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 23:37:53,563 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 23:37:53,626 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 23:37:53,626 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 23:37:53,702 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 23:37:53,752 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 23:37:53,791 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 23:37:53,885 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 23:37:54,027 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 23:37:54,115 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 23:37:54,305 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 23:37:54,695 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 23:37:54,966 - [test_withdraw.py-->line:72] - ERROR: （提现成功-整数）,该用例没有通过
+2024-03-24 23:37:54,967 - [test_withdraw.py-->line:73] - ERROR: Decimal('600') != Decimal('1200.00')
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 68, in test_recharge
+    self.assertEqual( Decimal(str(data["amount"])),start_amount  - end_amount)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('600') != Decimal('1200.00')
+2024-03-24 23:37:55,148 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 23:37:55,429 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 23:37:55,796 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 23:37:55,981 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 23:37:56,403 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 23:37:56,630 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:37:56,736 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:37:56,803 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:37:56,837 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 23:37:56,882 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:37:56,924 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:37:56,961 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 23:37:56,961 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:37:56,994 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:37:57,024 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 23:37:57,122 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 23:37:57,364 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 23:37:57,438 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 23:37:57,643 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 23:37:57,693 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 23:37:57,745 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 23:37:57,817 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-24 23:38:22,888 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 23:38:23,717 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 23:38:24,487 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 23:38:24,659 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 23:38:24,730 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 23:38:24,815 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 23:38:24,882 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 23:38:24,936 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 23:38:25,009 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 23:38:25,102 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 23:38:25,194 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 23:38:25,575 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 23:38:25,842 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 23:38:26,146 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 23:38:26,302 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 23:38:26,541 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 23:38:26,749 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 23:38:26,887 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 23:38:26,980 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 23:38:27,044 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 23:38:27,162 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 23:38:28,171 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-24 23:38:28,735 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 23:38:28,812 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 23:38:28,880 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 23:38:28,940 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 23:38:29,831 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 23:38:30,313 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 23:38:30,724 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 23:38:31,041 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 23:38:31,373 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 23:38:31,432 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:38:31,492 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 23:38:31,541 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:38:31,652 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:38:31,712 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 23:38:31,712 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:38:31,785 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 23:38:31,844 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 23:38:31,924 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 23:38:31,992 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 23:38:32,048 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 23:38:32,207 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 23:38:32,321 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 23:38:32,903 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 23:38:32,967 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 23:38:33,023 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 23:38:33,079 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 23:38:33,194 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 23:38:33,254 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 23:38:33,307 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 23:38:33,363 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 23:38:33,563 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 23:38:33,630 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 23:38:33,761 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 23:38:33,907 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 23:38:34,160 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 23:38:34,475 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 23:38:35,046 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 23:38:35,378 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 23:38:35,456 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:38:35,521 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 23:38:35,582 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:38:35,630 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:38:35,685 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 23:38:35,685 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:38:35,734 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 23:38:35,778 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 23:38:35,857 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 23:38:35,907 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 23:38:35,953 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-03-24 23:39:09,828 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-03-24 23:39:09,922 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-03-24 23:39:10,090 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-03-24 23:39:10,168 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-03-24 23:39:10,251 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-03-24 23:39:10,319 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-03-24 23:39:10,377 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-03-24 23:39:10,431 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-03-24 23:39:10,486 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-03-24 23:39:10,545 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-03-24 23:39:10,633 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-03-24 23:39:10,944 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-03-24 23:39:11,110 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-03-24 23:39:11,210 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-03-24 23:39:11,338 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-03-24 23:39:11,436 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-03-24 23:39:11,562 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-03-24 23:39:11,704 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-03-24 23:39:11,780 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-03-24 23:39:11,839 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-03-24 23:39:11,948 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-03-24 23:39:12,631 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-03-24 23:39:12,718 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-03-24 23:39:12,778 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-03-24 23:39:12,832 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-03-24 23:39:12,891 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-03-24 23:39:13,929 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-03-24 23:39:14,511 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-03-24 23:39:14,875 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-03-24 23:39:15,230 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-03-24 23:39:15,580 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-03-24 23:39:15,639 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:39:15,702 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-03-24 23:39:15,751 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:39:15,799 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:39:15,853 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-03-24 23:39:15,853 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:39:15,901 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-03-24 23:39:15,945 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-03-24 23:39:16,027 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-03-24 23:39:16,095 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-03-24 23:39:16,205 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-03-24 23:39:19,839 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-03-24 23:39:20,019 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-03-24 23:39:20,075 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-03-24 23:39:20,127 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-03-24 23:39:20,176 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-03-24 23:39:20,229 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-03-24 23:39:20,354 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-03-24 23:39:20,410 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-03-24 23:39:20,459 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-03-24 23:39:20,564 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-03-24 23:39:20,619 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-03-24 23:39:20,689 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-03-24 23:39:20,833 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-03-24 23:39:20,997 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-03-24 23:39:21,759 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-03-24 23:39:22,070 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-03-24 23:39:22,387 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-03-24 23:39:22,667 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-03-24 23:39:22,723 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-03-24 23:39:22,773 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-03-24 23:39:22,840 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-03-24 23:39:22,920 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-03-24 23:39:22,977 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-03-24 23:39:22,977 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-03-24 23:39:23,024 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-03-24 23:39:23,071 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-03-24 23:39:23,495 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-03-24 23:39:23,652 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-03-24 23:39:23,743 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-04-04 23:11:01,800 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-04-04 23:11:01,848 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-04-04 23:11:01,902 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-04-04 23:11:01,963 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-04-04 23:11:02,018 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-04-04 23:11:02,070 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-04-04 23:11:02,131 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-04-04 23:11:02,202 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-04-04 23:11:02,259 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-04-04 23:11:02,339 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-04-04 23:11:02,400 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-04-04 23:11:02,717 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-04-04 23:11:02,966 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-04-04 23:11:03,164 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-04-04 23:11:03,249 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-04-04 23:11:03,329 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-04-04 23:11:03,432 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-04-04 23:11:03,547 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-04-04 23:11:03,603 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-04-04 23:11:03,675 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-04-04 23:11:03,798 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-04-04 23:11:04,986 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-04-04 23:11:05,093 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-04-04 23:11:06,128 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-04-04 23:11:06,210 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-04-04 23:11:06,312 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-04-04 23:11:08,301 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-04-04 23:11:08,946 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-04-04 23:11:09,557 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-04-04 23:11:10,128 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-04-04 23:11:10,636 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-04-04 23:11:10,773 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-04-04 23:11:10,930 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-04-04 23:11:11,008 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-04-04 23:11:11,067 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-04-04 23:11:11,129 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-04-04 23:11:11,129 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-04-04 23:11:11,255 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-04-04 23:11:11,320 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-04-04 23:11:11,383 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-04-04 23:11:11,524 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-04-04 23:11:11,613 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-04-04 23:11:11,914 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-04-04 23:11:12,091 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-04-04 23:11:12,178 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-04-04 23:11:12,252 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-04-04 23:11:12,376 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-04-04 23:11:12,448 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-04-04 23:11:12,615 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-04-04 23:11:12,707 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-04-04 23:11:12,786 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-04-04 23:11:12,843 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-04-04 23:11:12,904 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-04-04 23:11:13,026 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-04-04 23:11:13,163 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-04-04 23:11:13,338 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-04-04 23:11:13,622 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-04-04 23:11:13,946 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-04-04 23:11:14,346 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-04-04 23:11:14,746 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-04-04 23:11:14,839 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-04-04 23:11:14,905 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-04-04 23:11:14,990 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-04-04 23:11:15,114 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-04-04 23:11:15,222 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-04-04 23:11:15,222 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-04-04 23:11:15,307 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-04-04 23:11:15,388 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-04-04 23:11:15,460 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-04-04 23:11:15,531 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-04-04 23:11:15,579 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
+2024-04-05 15:19:42,926 - [test_add.py-->line:70] - INFO: 加标成功,该用例已通过
+2024-04-05 15:19:42,996 - [test_add.py-->line:70] - INFO: 加标失败—借款人id为空,该用例已通过
+2024-04-05 15:19:43,106 - [test_add.py-->line:70] - INFO: 加标失败—标题为空,该用例已通过
+2024-04-05 15:19:43,195 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为空,该用例已通过
+2024-04-05 15:19:43,382 - [test_add.py-->line:70] - INFO: 加标失败—年利率为空,该用例已通过
+2024-04-05 15:19:43,473 - [test_add.py-->line:70] - INFO: 加标失败—借款期限为空,该用例已通过
+2024-04-05 15:19:43,585 - [test_add.py-->line:70] - INFO: 加标失败—借款期限类型为空,该用例已通过
+2024-04-05 15:19:43,643 - [test_add.py-->line:70] - INFO: 加标失败—竞标天数为空,该用例已通过
+2024-04-05 15:19:43,700 - [test_add.py-->line:70] - INFO: 加标失败—借款人id不是当前登录用户,该用例已通过
+2024-04-05 15:19:43,758 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为负数,该用例已通过
+2024-04-05 15:19:43,828 - [test_add.py-->line:70] - INFO: 加标失败—借款金额为小数,该用例已通过
+2024-04-05 15:19:44,240 - [test_audit.py-->line:78] - INFO: 审核通过,该用例已通过
+2024-04-05 15:19:44,427 - [test_audit.py-->line:78] - INFO: 审核不通过,该用例已通过
+2024-04-05 15:19:44,599 - [test_audit.py-->line:78] - INFO: 项目不待审核状态,该用例已通过
+2024-04-05 15:19:44,710 - [test_audit.py-->line:78] - INFO: 参数approved_or_not为空,该用例已通过
+2024-04-05 15:19:44,834 - [test_audit.py-->line:78] - INFO: 项目id为空,该用例已通过
+2024-04-05 15:19:44,946 - [test_audit.py-->line:78] - INFO: 项目id不存在,该用例已通过
+2024-04-05 15:19:45,103 - [test_invest.py-->line:120] - INFO: 管理员正常登录,用例执行通过
+2024-04-05 15:19:45,212 - [test_invest.py-->line:120] - INFO: 管理员加标,用例执行通过
+2024-04-05 15:19:45,299 - [test_invest.py-->line:120] - INFO: 管理员审核,用例执行通过
+2024-04-05 15:19:45,431 - [test_invest.py-->line:120] - INFO: 投资人正常登录,用例执行通过
+2024-04-05 15:19:46,404 - [test_invest.py-->line:120] - INFO: 投资人正常投资,用例执行通过
+2024-04-05 15:19:46,492 - [test_invest.py-->line:120] - INFO: 投资人id为空,用例执行通过
+2024-04-05 15:19:46,556 - [test_invest.py-->line:120] - INFO: 标id为空,用例执行通过
+2024-04-05 15:19:46,619 - [test_invest.py-->line:120] - INFO: 投资金额为空,用例执行通过
+2024-04-05 15:19:46,710 - [test_invest.py-->line:120] - INFO: 投资金额大于项目可投金额,用例执行通过
+2024-04-05 15:19:47,976 - [test_invest.py-->line:120] - INFO: 投资金额等于项目可投金额,用例执行通过
+2024-04-05 15:19:48,587 - [test_recharge.py-->line:71] - INFO: 充值成功-整数,该用例已通过
+2024-04-05 15:19:48,975 - [test_recharge.py-->line:71] - INFO: 充值成功-1位小数,该用例已通过
+2024-04-05 15:19:49,344 - [test_recharge.py-->line:71] - INFO: 充值成功-2位小数,该用例已通过
+2024-04-05 15:19:49,761 - [test_recharge.py-->line:71] - INFO: 充值成功-50万,该用例已通过
+2024-04-05 15:19:49,845 - [test_recharge.py-->line:71] - INFO: 会员id为空,该用例已通过
+2024-04-05 15:19:49,922 - [test_recharge.py-->line:71] - INFO: id不是当前登录的用户,该用例已通过
+2024-04-05 15:19:49,976 - [test_recharge.py-->line:71] - INFO: 会员id为字符串,该用例已通过
+2024-04-05 15:19:50,034 - [test_recharge.py-->line:71] - INFO: 会员id为小数,该用例已通过
+2024-04-05 15:19:50,114 - [test_recharge.py-->line:65] - ERROR: （充值金额为0）,该用例没有通过
+2024-04-05 15:19:50,114 - [test_recharge.py-->line:66] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_recharge.py", line 52, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-04-05 15:19:50,164 - [test_recharge.py-->line:71] - INFO: 充值金额为负数,该用例已通过
+2024-04-05 15:19:50,230 - [test_recharge.py-->line:71] - INFO: 充值金额为空,该用例已通过
+2024-04-05 15:19:50,313 - [test_recharge.py-->line:71] - INFO: 充值金额-3位小数,该用例已通过
+2024-04-05 15:19:50,510 - [test_recharge.py-->line:71] - INFO: 充值金额-大于50万,该用例已通过
+2024-04-05 15:19:50,634 - [test_recharge.py-->line:71] - INFO: 充值金额-非数字,该用例已通过
+2024-04-05 15:19:50,949 - [test_register.py-->line:56] - INFO: 注册成功-带注册名,该用例已通过
+2024-04-05 15:19:51,093 - [test_register.py-->line:56] - INFO: 成功-不带用户名,该用例已通过
+2024-04-05 15:19:51,188 - [test_register.py-->line:56] - INFO: 不输入手机号,该用例已通过
+2024-04-05 15:19:51,243 - [test_register.py-->line:56] - INFO: 手机号长度10位,该用例已通过
+2024-04-05 15:19:51,312 - [test_register.py-->line:56] - INFO: 手机号长度12位,该用例已通过
+2024-04-05 15:19:51,383 - [test_register.py-->line:56] - INFO: 手机号含有非法字符,该用例已通过
+2024-04-05 15:19:51,525 - [test_register.py-->line:56] - INFO: 已注册过的手机号,该用例已通过
+2024-04-05 15:19:51,592 - [test_register.py-->line:56] - INFO: 密码7位,该用例已通过
+2024-04-05 15:19:51,654 - [test_register.py-->line:56] - INFO: 密码17位,该用例已通过
+2024-04-05 15:19:51,731 - [test_register.py-->line:56] - INFO: 不输入密码,该用例已通过
+2024-04-05 15:19:51,797 - [test_register.py-->line:56] - INFO: 注册名11位,该用例已通过
+2024-04-05 15:19:51,870 - [test_register.py-->line:56] - INFO: 类型输入非0，1内容,该用例已通过
+2024-04-05 15:19:51,996 - [test_register.py-->line:56] - INFO: 不输入类型,该用例已通过
+2024-04-05 15:19:52,161 - [test_withdraw.py-->line:78] - INFO: 登录成功,该用例已通过
+2024-04-05 15:19:52,481 - [test_withdraw.py-->line:78] - INFO: 提现成功-整数,该用例已通过
+2024-04-05 15:19:52,833 - [test_withdraw.py-->line:78] - INFO: 提现成功-1位小数,该用例已通过
+2024-04-05 15:19:53,262 - [test_withdraw.py-->line:78] - INFO: 提现成功-2位小数,该用例已通过
+2024-04-05 15:19:53,655 - [test_withdraw.py-->line:78] - INFO: 提现成功-50万,该用例已通过
+2024-04-05 15:19:53,733 - [test_withdraw.py-->line:78] - INFO: 会员id为空,该用例已通过
+2024-04-05 15:19:53,806 - [test_withdraw.py-->line:78] - INFO: 会员id不存在,该用例已通过
+2024-04-05 15:19:53,948 - [test_withdraw.py-->line:78] - INFO: 会员id为字符串,该用例已通过
+2024-04-05 15:19:54,010 - [test_withdraw.py-->line:78] - INFO: 会员id为小数,该用例已通过
+2024-04-05 15:19:54,089 - [test_withdraw.py-->line:72] - ERROR: （提现金额为0）,该用例没有通过
+2024-04-05 15:19:54,089 - [test_withdraw.py-->line:73] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "/Users/bytedance/Downloads/student/test_api/cases/test_withdraw.py", line 60, in test_recharge
+    self.assertEqual(expected["code"],res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2024-04-05 15:19:54,145 - [test_withdraw.py-->line:78] - INFO: 提现金额为负数,该用例已通过
+2024-04-05 15:19:54,210 - [test_withdraw.py-->line:78] - INFO: 提现金额为空,该用例已通过
+2024-04-05 15:19:54,288 - [test_withdraw.py-->line:78] - INFO: 提现金额-3位小数,该用例已通过
+2024-04-05 15:19:54,350 - [test_withdraw.py-->line:78] - INFO: 提现金额-大于50万,该用例已通过
+2024-04-05 15:19:54,414 - [test_withdraw.py-->line:78] - INFO: 提现金额-非数字,该用例已通过
