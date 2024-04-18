@@ -12,6 +12,14 @@ from decimal import Decimal
 from common.handle_data import CaseData,replace_data
 import random
 import logging
+
+
+
+from common.handle_sign import HandleSign
+
+
+
+
 @ddt
 class rechargeTest(unittest.TestCase):
 
@@ -34,6 +42,14 @@ class rechargeTest(unittest.TestCase):
             case_data["data"] = replace_data(case_data["data"])
 
             data = eval(case_data["data"])
+
+            # print(data)
+            #
+            # sign_info = HandleSign().generate_sign(getattr(CaseData, "token"))
+            #
+            # data.update(sign_info)
+            #
+            # print(data)
 
             expected =eval(case_data["expected"])
 
@@ -63,6 +79,7 @@ class rechargeTest(unittest.TestCase):
                 self.excel.write_data(row=row,column=8,value="未通过")
                 log.error("（{}）,该用例没有通过".format(case_data["title"]))
                 log.exception(e)
+                log.exception(res["msg"])
                 raise e
 
             else:
@@ -71,7 +88,7 @@ class rechargeTest(unittest.TestCase):
 
 
         def setUp(self):
-            print("每条用例执行前都会执行一次:")
+            pass
 
         def tearDown(self):
             print("每条用例执行后都会执行一次")
@@ -85,6 +102,7 @@ class rechargeTest(unittest.TestCase):
             res = response.json()
             member_id = jsonpath.jsonpath(res,"$..id")[0]
             token = jsonpath.jsonpath(res,"$..token")[0]
+            # CaseData.token = token
             token_type = jsonpath.jsonpath(res,"$..token_type")[0]
             Authorization = token_type + " " + token
             CaseData.Authorization = Authorization
@@ -94,7 +112,6 @@ class rechargeTest(unittest.TestCase):
         @classmethod
         def tearDownClass(cls):
             print("结束测试:")
-
 
 
 

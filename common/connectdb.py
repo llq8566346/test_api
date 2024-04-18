@@ -2,8 +2,6 @@ import pymysql
 
 from common.handleconfig import conf
 
-
-
 class DB:
 
     def __init__(self):
@@ -16,9 +14,7 @@ class DB:
                        charset=conf.get("db","charset"),
                        cursorclass=pymysql.cursors.DictCursor
         )
-
         self.cur = self.conn.cursor()
-
 
     def find__one(self,sql):
         self.conn.commit()
@@ -44,12 +40,12 @@ class DB:
 
 
 
-a = DB()
+# a = DB()
 #
-sql = "SELECT * FROM future.member WHERE mobile_phone=13650607999"
+# sql = "SELECT * FROM future.member WHERE mobile_phone=13650607999"
 #
-b = a.find__count(sql)
-print(type(b))
+# b = a.find__count(sql)
+# print(type(b))
 
 
 

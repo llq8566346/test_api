@@ -1,4 +1,4 @@
-﻿
+
 
 import unittest
 from library.HTMLTestRunnerNew import HTMLTestRunner
@@ -33,7 +33,7 @@ handle_email(filename,"林亮钦的测试报告最终版.html")
 
 # br = BeautifulReport(suite)
 #
-# br.report("前程贷项目用例",filename="report1.html",report_dir=REPORTSDIR)123
+# br.report("前程贷项目用例",filename="report1.html",report_dir=REPORTSDIR)
 
 
 

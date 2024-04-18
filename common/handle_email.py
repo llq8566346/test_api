@@ -19,7 +19,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from common.handleconfig import conf
 
-
 def handle_email(filename,title):
 
         smtp = smtplib.SMTP_SSL(host=conf.get("email","host"),port=int(conf.get("email","port")))
@@ -27,8 +26,8 @@ def handle_email(filename,title):
         smtp.login(user=conf.get("email","user"),password=conf.get("email","password"))
 
         # content = "林亮钦发送邮件试试"
-
         with open(filename,"rb") as f:
+
             content = f.read()
 
         msg = MIMEMultipart()
