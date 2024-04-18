@@ -29,7 +29,7 @@ runner.run(suite)
 
 filename = os.path.join(REPORTSDIR,"{}reports2.html".format(date))
 
-handle_email(filename,"林亮钦的测试报告最终版")
+handle_email(filename,"林亮钦的测试报告最终版.html")
 
 # br = BeautifulReport(suite)
 #
